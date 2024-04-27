@@ -1,0 +1,61 @@
+COMMANDS
+Shortcuts:
+●	Ctrl Alt T
+○	Opens a terminal window
+●	ls
+○	Use the "ls" command to know what files are in the directory you are in.
+	○	ls -a
+■	Hidden files in the directory ○	ls -al
+■	Lists files and directories with detailed information like permissions,size, owner, etc.
+●	cd
+○	A command that lets you move into a specific directory
+	○	cd Downloads
+■	This command will move you into the Downloads folder ○	cd ..
+	■	Moves you up one level in the directory hierarchy
+	○	cd /
+	■	Moves you to the root directory
+●	rm
+○	rm stands for remove and it allows you to remove files
+	○	rm -r
+	■	Removes an entire directory
+●	man
+○	Pulls up a manual and description of user commands
+	○	man cd
+■	Manual page for the cd command ●	--help
+	○	cd -help
+■	Explains and shows how the cd command can be used ●	locate
+	○	This command shows you the directory for files
+	○	locate -i
+	■	Does the same thing however -i ignores case
+●	cat
+○	Shows the content of a file
+●	nano
+○	This is a text editor that allows you to change permissions to files
+●	sudo
+○	Stands for SuperUser Do
+	○	This allows you to any command with administrative/root privileges
+●	apt-get
+○	This command allows you to install packages and updates/upgrades
+●	chmod
+○	Use chmod to make a file executable and to change the permissions granted to it in Linux.
+●	grep
+○	It is used to search for a string of characters in a specified file
+	○	grep “string” “filename” (ignore the “”)
+●	find
+○	Another tool for finding files
+●	*
+○	The asterisk is used as a wildcard, it is most helpful for looking for files of a certain extension type for example
+	■	find / -iname “*.mp3” will output all mp3 files in the root directory
+●	clear
+○	Clears the directory
+●	pwd
+○	Shows the current directory location User management commands of linux ●	sudo adduser username
+	○	Adds a new user
+●	sudo passwd -l 'username'
+○	To change the password of a user
+Dash commands: ●	-i
+	○	Ignores case
+●	/
+○	root
+●
+Sudo apt install net-tools ifconfig
